@@ -1,0 +1,29 @@
+.equation {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .fraction {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+        }
+        .fraction > span {
+            display: block;
+            padding: 0 0.1em;
+        }
+        .fraction .top {
+            border-bottom: 1px solid #000;
+        }
+        .fraction .bottom {
+            margin-top: -0.1em;
+        }
+        .superscript {
+            font-size: 0.75em;
+            vertical-align: super;
+        }
+        .subscript {
+            font-size: 0.75em;
+            vertical-align: sub;
+        }

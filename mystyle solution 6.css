@@ -1,0 +1,18 @@
+       body{
+        background-image: url(../../../Pictures/background.jpg);
+        background-repeat=no-repeat;
+        background-position=center;
+        background-size=cover;
+       }
+       .hover-effect {
+            font-size: 16px; /* Default font size */
+            color: black; /* Default font color */
+            font-family: Arial, sans-serif; /* Default font family */
+            transition: all 0.3s ease; /* Smooth transition effect */
+        }
+
+        .hover-effect:hover {
+            font-size: 20px; /* Font size on hover */
+            color: blue; /* Font color on hover */
+            font-family: 'Times New Roman', Times, serif; /* Font family on hover */
+        }

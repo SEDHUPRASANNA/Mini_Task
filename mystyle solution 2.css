@@ -1,0 +1,5 @@
+ img {
+            border-radius: 18px; /* Rounded corners */
+            border: 2px dashed #000; /* Dashed border */
+            filter: grayscale(100%); /* Grayscale filter */
+        }

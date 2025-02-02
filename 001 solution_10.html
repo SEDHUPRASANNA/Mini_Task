@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Default Values</title>
+</head>
+<body>
+
+    <h2>Form with Default Values</h2>
+
+    <!-- Highlighted text using <mark> -->
+    <p><mark>HTML & CSS is awesome</mark></p>
+
+    <form action="#">
+        <!-- Text Input with Default Value -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" value="John Doe"><br><br>
+
+        <!-- Email Input with Default Value -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="johndoe@example.com"><br><br>
+
+        <!-- Password Input with Default Value -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value="password123"><br><br>
+
+        <!-- Radio Buttons with Default Value -->
+        <label for="employee_type">Employee Type:</label><br>
+        <input type="radio" id="salaried" name="employee_type" value="salaried" checked>
+        <label for="salaried">Salaried</label><br>
+        <input type="radio" id="own_business" name="employee_type" value="own_business">
+        <label for="own_business">Own Business</label><br><br>
+
+        <!-- Checkbox with Default Value -->
+        <input type="checkbox" id="subscribe" name="subscribe" checked>
+        <label for="subscribe">Subscribe to Newsletter</label><br><br>
+
+        <!-- Dropdown (Select) with Default Value -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa" selected>United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="india">India</option>
+        </select><br><br>
+
+        <!-- Textarea with Default Value -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50">This is a default message.</textarea><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

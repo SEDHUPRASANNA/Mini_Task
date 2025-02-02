@@ -1,0 +1,7 @@
+.box-model {
+            padding: 20px; /* Padding inside the div */
+            margin: 15px; /* Margin outside the div */
+            border: 2px solid #000; /* Border around the div */
+            box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+        }
+   
